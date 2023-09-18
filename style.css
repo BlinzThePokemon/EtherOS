@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('wallpaper1.svg');
+    background-size: cover;
+}
+
+.content {
+    padding: 50px;
+}
+
+.taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* or whatever height you want */
+    background: radial-gradient(circle at center, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+#haikei{
+    width: 50px;
+    height: 45px;
+    border-radius: 25%;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#google{
+    width: 45px;
+    height: 45px;
+    border-radius: 25%;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#wallicon{
+    width: 45px;
+    height: 45px;
+    border-radius: 35%;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+img:hover {
+    transform: scale(1.0) translateY(-7px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+#settings{
+    width: 45px;
+    height: 45px;
+    border-radius: 35%;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
